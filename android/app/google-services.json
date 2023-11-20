@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "657085055673",
+    "project_id": "shingayan-transient-house",
+    "storage_bucket": "shingayan-transient-house.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657085055673:android:41bd0cb3f9cf8db9531168",
+        "android_client_info": {
+          "package_name": "com.shingayantransienthouse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD9RA9t4QbZcorwTUs94YziC4u4_3BuVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
