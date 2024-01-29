@@ -4,7 +4,7 @@ import { styles } from '../../styles/styles';
 import RoomCard from '../../components/RoomCard';
 
 const room = [
-  {id: 1, name: 'Transient 1', status: 1, occupants: 1, image: require('../../assets/images/house.jpg')},
+  {id: 8, name: 'Transient 1', status: 0, occupants: [], image: require('../../assets/images/house.jpg')},
 ];
 
 const TransientRoom = () => {

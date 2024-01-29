@@ -37,10 +37,6 @@ const HomeScreen = () => {
 
   return (
     <View style={[styles.flex1]}>
-      <View style={[styles.p1, styles.justifySpaceBetween, styles.flexDirectionRow, styles.alignItemCenter]}>
-        <Text style={{fontSize: 20}}>Shingayan Transient House</Text>
-        <FontAwesome name='gear' size={30}/>
-      </View>
       <View style={[styles.p1, styles.alignItemCenter]}>
           <Image
             source={require('../assets/images/house.jpg')}
