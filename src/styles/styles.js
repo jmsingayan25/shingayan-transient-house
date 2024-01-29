@@ -217,6 +217,17 @@ const styles = StyleSheet.create({
     imageContainer: {
         borderRadius: 20,
         width: '80%'
+    },
+    imageCarousel: {
+        borderRadius: 30,
+        height: '80%',
+        width: '80%'
+    },
+    imageCarouselContainer: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'red'
     }
 })
 
