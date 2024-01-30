@@ -14,6 +14,7 @@ import DetailScreen from './src/screens/RoomScreen/DetailScreen';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MoreScreen from './src/screens/MoreScreen';
+import AboutScreen from './src/screens/MoreScreen/AboutScreen';
 
 const Stack = createNativeStackNavigator();
 const HomeStack = createNativeStackNavigator();
@@ -91,7 +92,8 @@ const BottomTabStack = () => {
         name='MoreTab' 
         component={MoreScreen} 
         options={{
-          headerShown: false,
+          // headerShown: false,
+          headerTitle: 'More',
           tabBarLabel: 'More',
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons name='menu' color={color} size={size}/>
@@ -117,6 +119,13 @@ const App = () => {
           }}  
         />
         <Stack.Screen name='Detail' component={DetailScreen}/>
+        <Stack.Screen 
+          name='AboutUs' 
+          component={AboutScreen}
+          options={{
+            headerTitle: 'About Us'
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   )
